@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bcb5e4e7-bb12-4f54-b013-003653daccd8": {
+      "ProjectGuid": "bcb5e4e7-bb12-4f54-b013-003653daccd8",
+      "DisplayName": "VokabelTrainer",
+      "ColorIndex": 0
+    },
+    "7112fa60-1576-461e-9730-6b753fe387c6": {
+      "ProjectGuid": "7112fa60-1576-461e-9730-6b753fe387c6",
+      "DisplayName": "VokabelTrainer.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

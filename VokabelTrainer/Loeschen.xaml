@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VokabelTrainer.Loeschen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="PaketText" Text="Möchtest du wirklich das Paket löschen?"/>
+            <Entry x:Name="NeuerName" Placeholder="Neuer Paket Name"/>
+            <Button x:Name="Ja" Text="Ja" Clicked="Ja_Clicked" BackgroundColor="Red"/>
+            <Button x:Name="Nein" Text="Nein" Clicked="Nein_Clicked" BackgroundColor="Green"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

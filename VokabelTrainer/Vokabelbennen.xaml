@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VokabelTrainer.Vokabelbennen"
+             Title="Vokabel bennen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="ID" Placeholder="Vokabel Nummer" ClearButtonVisibility="WhileEditing" IsVisible="false"/>
+            <Button x:Name="Laden" Text="Vokabel Laden" Clicked="Laden_Clicked" IsVisible="false" BackgroundColor="#00A3FF"/>
+            <Entry x:Name="Fremdsprache01" Placeholder="Fremdsprache 01" Text="" ClearButtonVisibility="WhileEditing"/>
+            <Entry x:Name="Fremdsprache02" Placeholder="Fremdsprache 02" Text="" ClearButtonVisibility="WhileEditing"/>
+            <Button x:Name="Vokabelspeichern" Text="Speichern" Clicked="Vokabelspeichern_Clicked" BackgroundColor="#00A3FF"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

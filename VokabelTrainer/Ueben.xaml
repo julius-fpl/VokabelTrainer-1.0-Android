@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VokabelTrainer.Ueben">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="Modus01" Text="Fremdsprache01 zu Fremdsprache02" Clicked="ModusOne" BackgroundColor="#00A3FF"/>
+            <Button x:Name="Modus02" Text="Fremdsprache02 zu Fremdsprache01" Clicked="ModusTwo" BackgroundColor="#00A3FF"/>
+            <Button x:Name="Modus03" Text="Zufällig" Clicked="ModusThree" BackgroundColor="#00A3FF"/>
+            <StackLayout x:Name="StacklayoutKorektur" IsVisible="false">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="Switch" Text="Autokorektur:" Grid.Row="0" Grid.Column="0" FontSize="18" TextColor="Black"/>
+                    <Switch x:Name="Autokoregieren" IsToggled="True" Grid.Row="0" Grid.Column="0"/>
+                </Grid>
+            </StackLayout>
+            <Label x:Name="AnzeigeText" IsVisible="false" FontSize="Large"/>
+            <Entry x:Name="Antwort" Placeholder="Antwort eintippen" IsVisible="false"/>
+            <Label x:Name="AntwortText" IsVisible="false" FontSize="Large"/>
+            <Button x:Name="LoesungAnzeigen" Text="Antwort abgeben" Clicked="LoesungAnzeigen_Clicked" IsVisible="false" BackgroundColor="#00A3FF"/>
+            <Button x:Name="Richtig" Text="Richtig" Clicked="Richtig_Clicked" IsVisible="false" BackgroundColor="Green"/>
+            <Button x:Name="Falsch" Text="Falsch" Clicked="Falsch_Clicked" IsVisible="false" BackgroundColor="Red"/>
+            <Button x:Name="Weiter" Text="Weiter" Clicked="Weiter_Clicked" IsVisible="false" BackgroundColor="#00A3FF"/>
+            <Label x:Name="Counter" IsVisible="false" FontSize="Large"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

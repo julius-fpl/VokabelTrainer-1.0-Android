@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VokabelTrainer.Vokabeluebersicht"
+             Title="Vokabelübersicht">
+    <ContentPage.Content>
+        <ScrollView Grid.Row="0">
+            <StackLayout>
+                <Button x:Name="Ueben" Text="Üben" Clicked="Ueben_Clicked" BackgroundColor="#00A3FF"/>
+                <Button x:Name="Hinzufuegen" Text="Vokabel Hinzufügen" Clicked="Hinzufuegen_Clicked" BackgroundColor="#00A3FF"/>
+                <Button x:Name="VokabelButton" Text="" Clicked="VokabelButton_CLicked" IsVisible="false" BackgroundColor="#00A3FF" TextTransform="None"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,1 @@
+C:\Users\user\source\repos\VokabelTrainer\VokabelTrainer.UWP\VokabelTrainer.UWP.csproj;x86

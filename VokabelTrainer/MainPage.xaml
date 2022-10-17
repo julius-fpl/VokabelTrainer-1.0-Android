@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VokabelTrainer.MainPage"
+             Title="Packete">
+    <ScrollView Grid.Row="0">
+        <StackLayout>
+            <Button x:Name="Hinzufuegen" Text="Paket Hinzufügen" BackgroundColor="#00A3FF" Clicked="PaketHinzufuegen"/>
+            <Button x:Name="Loeschen" Text="Lernen" BackgroundColor="#00A3FF" Clicked="Loeschen_Clicked"/>
+            <Button x:Name="Paket01" Clicked="Paket01_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket02" Clicked="Paket02_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket03" Clicked="Paket03_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket04" Clicked="Paket04_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket05" Clicked="Paket05_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket06" Clicked="Paket06_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket07" Clicked="Paket07_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket08" Clicked="Paket08_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket09" Clicked="Paket09_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+            <Button x:Name="Paket10" Clicked="Paket010_Clicked" BackgroundColor="#00A3FF" IsVisible="false"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
